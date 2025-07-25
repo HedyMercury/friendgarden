@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:id="@+id/title_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Your Friend Garden!"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+<!--        style="@style/HeaderTextStyle"-->
+<!--        android:text="@string/title_welcome" />-->
+
+    <GridLayout
+        android:id="@+id/plant_grid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_margin="16dp"
+        android:useDefaultMargins="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <FrameLayout
+            android:id="@+id/slot1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/plant_image_0"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/slot1"
+                android:src="@drawable/plussign"
+                android:clickable="true"
+                android:focusable="true" />
+        </FrameLayout>
+<!--        slot 1 done-->
+
+        <FrameLayout
+            android:id="@+id/slot2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/plant_image_1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/slot2"
+                android:src="@drawable/plussign"
+                android:clickable="true"
+                android:focusable="true" />
+        </FrameLayout>
+<!--        slot 2 done-->
+
+        <FrameLayout
+            android:id="@+id/slot3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/plant_image_2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/slot3"
+                android:src="@drawable/plussign"
+                android:clickable="true"
+                android:focusable="true" />
+        </FrameLayout>
+<!--        slot 3 done-->
+
+        <FrameLayout
+            android:id="@+id/slot4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/plant_image_3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/slot4"
+                android:src="@drawable/plussign"
+                android:clickable="true"
+                android:focusable="true" />
+        </FrameLayout>
+<!--        slot 4 done-->
+
+        <FrameLayout
+            android:id="@+id/slot5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/plant_image_4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/slot5"
+                android:src="@drawable/plussign"
+                android:clickable="true"
+                android:focusable="true" />
+        </FrameLayout>
+<!--        slot 5 done-->
+
+        <FrameLayout
+            android:id="@+id/slot6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/plant_image_5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/slot6"
+                android:src="@drawable/plussign"
+                android:clickable="true"
+                android:focusable="true" />
+        </FrameLayout>
+<!--        slot 6 done-->
+
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

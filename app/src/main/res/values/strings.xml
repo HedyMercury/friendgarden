@@ -1,0 +1,26 @@
+<resources>
+    <string name="title_welcome">Welcome to Your Friend Garden</string>
+    <string name="instructions_pickplant">Pick a Plant!</string>
+    <string name="instructions_nn">Nourish or Neglect?</string>
+    <string name="nourish">Nourish</string>
+    <string name="neglect">Neglect</string>
+    <string name="sunflower">Sunflower</string>
+    <string name="snake">Snake Plant</string>
+    <string name="rose">Rose</string>
+    <string name="instructions_tap">Tap image to care for plant!</string>
+    <string name="instructions_neglectimpact">How much neglect?</string>
+    <string name="instructions_nourishimpact">How much nourishment?</string>
+    <string name="slot1">Slot 1</string>
+    <string name="slot2">Slot 2</string>
+    <string name="slot3">Slot 3</string>
+    <string name="slot6">Slot 6</string>
+    <string name="slot5">Slot 5</string>
+    <string name="slot4">Slot 4</string>
+    <string name="teeny">Teeny (1 HP)</string>
+    <string name="smol">Smol (3 HP)</string>
+    <string name="big">Big (5 HP)</string>
+    <string name="chonk">Chonk (10 HP)</string>
+
+
+
+</resources>
